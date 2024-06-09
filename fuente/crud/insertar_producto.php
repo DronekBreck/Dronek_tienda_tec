@@ -8,10 +8,8 @@
     ."'".$_POST["nombre"].", "
     .$_POST["precio"].", "
     .$_POST["categoria"]."); ";
-    echo $sql;
 
-    header("Location: ../../");
     $insercion = mysqli_query($conexion, $sql);
     //$insercion->exec();
-
+    header("Location: ../../");
 ?>
