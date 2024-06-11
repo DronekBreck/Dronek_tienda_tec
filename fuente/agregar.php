@@ -6,27 +6,26 @@
     <title>Agregar</title>
 </head>
 <body>
-
-<form action="./crud/insertar_producto.php" method="POST">
     <h1>agragar producto</h1>
+    <form action="./crud/insertar_producto.php" method="POST">
         <div>
-            <label for="">Nombre:</label>
-            <input type="text" id="nombre" name="nombre">
-        </div>
-    <br>
-        <div>
-            <label for="">Precio: $</label>
-            <input type="number" name="precio">
-        </div>
-    <br>
-        <div>
-            <label for="">Categoria:</label>
-            <input type="number" name="categoria">
-        </div>
-    <br>
-    <input type="submit" value="Agragar">
+                <label for="">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+            </div>
+        <br>
+            <div>
+                <label for="">Precio: $</label>
+                <input type="number" name="precio">
+            </div>
+        <br>
+            <div>
+                <label for="">Categoria:</label>
+                <input type="number" name="categoria">
+            </div>
+        <br>
+        <input type="submit" value="Agragar">
 
-</form>
+    </form>
 
 </body>
 </html>
